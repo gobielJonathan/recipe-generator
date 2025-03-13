@@ -31,7 +31,7 @@ const Index = () => {
           <Lock className="w-4 h-4" />
           <span>Your photos are processed locally - your privacy is protected</span>
         </div>
-        <RecipeContainer imageUploaded={imageUploaded} />
+        <RecipeContainer imageUploaded={true} />
       </main>
     </div>
   );
